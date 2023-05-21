@@ -14,11 +14,12 @@ class AppProvider extends InheritedWidget {
   final jobs = [
     JobModel(
       id: 0,
-      role: "Product Designer",
+      role: "Olimpiada fizyczna 2023",
       type: "Full-time",
       position: "Entry-Level",
-      description: """
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""",
+      description: """Karol Juszczyk z klasy III c otrzymał tytuł finalisty 72 Olimpiady Fizycznej. Podczas dwudniowej rywalizacji Karol zmierzył się w Warszawie z 77 uczestnikami z całej Polski.
+Podczas pobytu w stolicy w dniach 14-18 kwietnia 2023 r., oprócz rozwiązywania zadań konkursowych, olimpijczycy mieli możliwość uczestnictwa w wykładach i warsztatach prowadzonych przez pracowników naukowych UW i PAN.
+Serdecznie gratulujemy Karolowi sukcesu i życzymy kolejnych.""",
       salaryRange: [120, 250],
       salaryInterval: "Month",
       postedDate: "24hr",
